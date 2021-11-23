@@ -21,8 +21,10 @@
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
   },
+  "devDependencies": {
+    "@uniswap/v2-core": "git+ssh://git@github.com:SnowbankDAO/snowswap-core.git"
+  },
   "dependencies": {
-    "@uniswap/v2-core": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
