@@ -28,16 +28,7 @@
     "jsbi": "^3.1.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
-    "toformat": "^2.0.0"
-  },
-  "peerDependencies": {
-    "@ethersproject/address": "^5.0.0-beta",
-    "@ethersproject/contracts": "^5.0.0-beta",
-    "@ethersproject/networks": "^5.0.0-beta",
-    "@ethersproject/providers": "^5.0.0-beta",
-    "@ethersproject/solidity": "^5.0.0-beta"
-  },
-  "devDependencies": {
+    "toformat": "^2.0.0",
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/contracts": "^5.0.2",
     "@ethersproject/networks": "^5.0.2",
