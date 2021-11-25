@@ -141,8 +141,8 @@ export abstract class Router {
 
     const to: string = validateAndParseAddress(options.recipient)
     const amountIn: string = toHex(trade.maximumAmountIn(options.allowedSlippage))
-    // const amountOut: string = toHex(trade.minimumAmountOut(options.allowedSlippage))
-    const amountOut: string = '0x0';
+    const amountOut: string = toHex(trade.minimumAmountOut(options.allowedSlippage))
+    // const amountOut: string = '0x0';
     const path: string[] = trade.route.path.map(token => token.address)
     const deadline =
       'ttl' in options
